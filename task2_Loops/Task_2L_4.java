@@ -53,7 +53,6 @@ public class Task_2L_4 {
         long sumDiv = 1;
         for (int i = 2; i < Math.sqrt(number); i++) {
             if (number % i == 0) {
-                //System.out.print(i + " ");
                 sumDiv += i;
                 sumDiv += number/i;
             }
