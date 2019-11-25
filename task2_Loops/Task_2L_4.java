@@ -3,6 +3,7 @@ package by.epam.petropavlovskaya.task2loops;
 import java.util.Scanner;
 
 public class Task_2L_4 {
+    static long startTime;
     public static void main(String args[]){
         /* Дру́жественные чи́сла — два различных натуральных числа , для которых
          * сумма всех собственных делителей первого числа равна второму числу и
@@ -23,8 +24,7 @@ public class Task_2L_4 {
                 throw new RuntimeException();
             }
 
-
-            areFriendly(number1, number2);
+            areFriendly(Math.min(number1, number2), Math.max(number1, number2));
 
         }catch (RuntimeException e) {
             System.out.println("Вы не ввели натуральное число.");
