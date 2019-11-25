@@ -24,7 +24,12 @@ public class Task_2L_4 {
                 throw new RuntimeException();
             }
 
-            areFriendly(Math.min(number1, number2), Math.max(number1, number2));
+            if ((number1 >= 220) & (number2 >= 220)) {
+                areFriendly(Math.min(number1, number2), Math.max(number1, number2));
+            }
+            else {
+                System.out.println("В заданном диапазоне поиска нет дружественных чисел.");
+            }
 
         }catch (RuntimeException e) {
             System.out.println("Вы не ввели натуральное число.");
@@ -46,6 +51,9 @@ public class Task_2L_4 {
                     }
                 }
             }
+        }
+        if (count == 1){
+            System.out.println("В заданном диапазоне поиска нет дружественных чисел.");
         }
     }
 
