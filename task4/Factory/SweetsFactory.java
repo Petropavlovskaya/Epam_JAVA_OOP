@@ -1,10 +1,10 @@
 package by.epam.petropavlovskaya.task4.Factory;
 
 import by.epam.petropavlovskaya.task4.Sweets.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
+// Фабрика по созданию сладостей
 public class SweetsFactory {
     private static List<ChocolateCandy> candyList = new ArrayList<ChocolateCandy>();
     private static List<ChocolateBar> barList = new ArrayList<ChocolateBar>();
@@ -31,7 +31,7 @@ public class SweetsFactory {
                 break;
             }
             case CHOCOLATE_BAR: {
-                barList.add(new ChocolateBar(name, weight, amountOfSugar, ChokolateBarSize.valueOf(str)));
+                barList.add(new ChocolateBar(name, weight, amountOfSugar, ChoсolateBarSize.valueOf(str)));
                 break;
             }
             case LOLLIPOP: {

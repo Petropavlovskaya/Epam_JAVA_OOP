@@ -1,34 +1,26 @@
 package by.epam.petropavlovskaya.task4.Sweets;
 
 public class ChocolateBar extends Sweets {
-    private ChokolateBarSize size;      // размер батончика
-    private static int countBars = 0;
+    private static int countBars = 0;   // Счетчик созданных шоколадных батончиков
+    private ChoсolateBarSize size;      // Размер батончика (перечисление)
 
     public static int getCountBars() {
         return countBars;
     }
 
-    public ChocolateBar(){
-
-    }
-
-    public ChocolateBar(String name, float weight, float amountOfSugar, ChokolateBarSize size) {
-        super(name, weight,amountOfSugar);
+    public ChocolateBar(String name, float weight, float amountOfSugar, ChoсolateBarSize size) {
+        super(name, weight, amountOfSugar);
         this.size = size;
         countBars++;
     }
 
+    // Переопредление метода для вывода полей на экран.
     @Override
-    public void createSweet() {
-        System.out.println("Choc bar");
-    }
-
-    @Override
-    public String toString(){
+    public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(super.toString());
-        sb.append(", Size ");
-        sb.append(size);
+        sb.append(", Size \t");
+        sb.append(size + "\t");
         return sb.toString();
     }
 }

@@ -1,7 +1,5 @@
 package by.epam.petropavlovskaya.task4;
 
-import by.epam.petropavlovskaya.task4.Sweets.ChocolateBar;
-import by.epam.petropavlovskaya.task4.Sweets.Lollipop;
 import by.epam.petropavlovskaya.task4.Sweets.Sweets;
 import by.epam.petropavlovskaya.task4.utillity.*;
 
@@ -13,24 +11,22 @@ public class Main {
 
 
         List<String> list = new ArrayList<String>();
-
-        // chitajem iz faila
-        list = TxtFileReader.readTxtFile();
-
-        // peredajem schitannuju ifo
-        CreateSweets.createNewSweets(list);
+        List<Sweets> myGift = new ArrayList<Sweets>();
+        ReadTxtForFactory.readDataForFactory();                 // Ispravleno
 //
 //        PrintInfo.printCountsSweets();
 //
 //        PrintInfo.printAllCollections();
 
-        ChocolateBar b = new ChocolateBar();
-        Lollipop l = new Lollipop();
+        myGift = CreatePresent.collectGift(7);
 
-        List<Sweets> swList = new ArrayList<Sweets>();
-        swList.add(l);
-        swList.add(b);
-        System.out.println(swList.toString());
-        CreatePresent.collectGift(5);
+        SortCollection.sortGiftForWeight(myGift);
+        System.out.println();
+        SortCollection.sortGiftForWeightAndSugar(myGift);
+        List<Sweets> mewSWEEEE = FindBySugar.findSweetsBySugar(myGift, 14, 65);
+        System.out.println("Find by sugar from 14 to 65");
+        for (Sweets s:mewSWEEEE){
+            System.out.println(s.toString());
+        }
     }
 }

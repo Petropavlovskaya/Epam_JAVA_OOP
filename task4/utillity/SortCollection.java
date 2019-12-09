@@ -2,21 +2,23 @@ package by.epam.petropavlovskaya.task4.utillity;
 
 import by.epam.petropavlovskaya.task4.Sweets.Sweets;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class SortCollection {
 
-    public static void sortMyCollection(List<Sweets> gift){
-//        gift.sort();
+    public static void sortGiftForWeight(List<Sweets> myGift) {
+        SweetsWeightComparator myComp = new SweetsWeightComparator();
+        myGift.sort(myComp);
+        for (Sweets s: myGift){
+            System.out.println(s.toString());
+        }
+    }
 
-        Collections.sort(gift, new Comparator<Sweets>() {
-            int compare(Item o1, Item o2) {
-                return o1.key.compareTo(o2.key);
-            }
-
-
-
+    public static void sortGiftForWeightAndSugar(List<Sweets> myGift){
+        Comparator<Sweets> myComp = new SweetsWeightComparator().thenComparing(new SweetsSugarComparator());
+        myGift.sort(myComp);
+        for (Sweets s: myGift){
+            System.out.println(s.toString());
+        }
     }
 }

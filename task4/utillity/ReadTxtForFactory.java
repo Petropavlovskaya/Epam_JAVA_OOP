@@ -1,16 +1,38 @@
 package by.epam.petropavlovskaya.task4.utillity;
 
-import by.epam.petropavlovskaya.task4.Sweets.*;
-import by.epam.petropavlovskaya.task4.Factory.*;
-
+import by.epam.petropavlovskaya.task4.Factory.SweetsFactory;
+import by.epam.petropavlovskaya.task4.Factory.SweetsType;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class CreateSweets {
-//    private
+public class ReadTxtForFactory {
 
-    public static void createNewSweets(List<String> lines) {
+    private static List<String> readTxtFile() {
+        List<String> lines = new ArrayList<String>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File("D://Sweets1.txt")))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines.add(line);
+            }
+            if (lines.isEmpty()) {
+                throw new NullPointerException();
+            }
+        } catch (NullPointerException ex) {
+            System.out.println("Файл пуст.");
+            System.exit(0);
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return lines;
+    }
+
+    private static void createNewSweets(List<String> lines) {
         SweetsFactory factory = new SweetsFactory();
 
         try {
@@ -37,5 +59,9 @@ public class CreateSweets {
         } catch (NumberFormatException ex) {
             System.out.println(ex.getMessage());
         }
+    }
+
+    public static void readDataForFactory() {
+        createNewSweets(readTxtFile());
     }
 }

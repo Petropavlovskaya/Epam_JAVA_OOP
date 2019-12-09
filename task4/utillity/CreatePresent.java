@@ -9,19 +9,20 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+// Класс для создания детского подарка
 public class CreatePresent {
 
+    // Запрашиваем количество конфет в подарок
     public static int createGift() {
         int count = 0;
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите количество сладостей для подарка");
+        System.out.println("Введите количество сладостей для подарка. Максимальная упаковка - 100 шт.");
 
         try {
             count = in.nextInt();
-            if (count > 500) {                    // Придерживаемся первой концепци, где 0 - не натуральное число.
+            if (count > 100) {
                 System.out.println("У нас нет упаковки для такого большого подарка!");
             }
-
         } catch (RuntimeException e) {
             System.out.println("Ошибка ввода.");
         }
@@ -29,7 +30,7 @@ public class CreatePresent {
     }
 
     // sobirajem nuzhnoje kolichesvo iz vseh vidov
-    public static void collectGift(int count) {
+    public static List<Sweets> collectGift(int count) {
         List<Sweets> myGift = new ArrayList<Sweets>();
 
         Random random = new Random();
@@ -85,14 +86,14 @@ public class CreatePresent {
         }
 
         float weight = 0;
-//        System.out.println("V nashem podarke:");
+        System.out.println("V nashem podarke:");
         for (Sweets s : myGift) {
             weight += s.getWeight();
             System.out.println(s);
         }
         System.out.println("Общий вес собранного подарка: " + weight + " грамм.");
 
-
+        return myGift;
     }
 
 }
