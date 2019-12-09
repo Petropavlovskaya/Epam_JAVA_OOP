@@ -17,10 +17,15 @@ public class Lollipop extends Sweets {
     // Переопредление метода для вывода полей на экран.
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        String sb;
+        sb = super.toString() + "Stick: " + hasStick;
+        return sb;
+
+
+/*        StringBuilder sb = new StringBuilder();
         sb.append(super.toString());
         sb.append("Stick: ");
         sb.append(hasStick + ";\t");
-        return sb.toString();
+        return sb.toString();*/
     }
 }

@@ -1,8 +1,5 @@
 package by.epam.petropavlovskaya.task4.Sweets;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ChocolateCandy extends Sweets {
     private static int countCandys = 0; // Счетчик созданных шоколадных конфет
     private boolean hasFilling;         // Наличие в конфете начинки
@@ -20,11 +17,10 @@ public class ChocolateCandy extends Sweets {
     // Переопредление метода для вывода полей на экран.
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(super.toString());
-        sb.append(", Filling \t");
-        sb.append(hasFilling + "\t");
-        return sb.toString();
+
+        String sb;
+        sb = super.toString() + "Filling: " + hasFilling;
+        return sb;
     }
 
 }

@@ -7,10 +7,6 @@ public class Sweets {
     private float weight;           // Вес
     private float amountOfSugar;    // Количество сахара
 
-    public String getName() {
-        return name;
-    }
-
     public float getWeight() {
         return weight;
     }
@@ -34,13 +30,18 @@ public class Sweets {
     // Переопредление метода для вывода полей на экран.
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        String sb;
+        sb = "Naimenovanie: " + name + ";\t" + "Ves: " + weight + ";\t" + "Sugar: " + amountOfSugar + ";\t";
+        return sb;
+
+
+/*        StringBuilder sb = new StringBuilder();
         sb.append("Naimenovanie: ");
         sb.append(name + ";\t");
         sb.append("Ves: ");
         sb.append(weight + ";\t");
         sb.append("Sugar: ");
         sb.append(amountOfSugar + ";\t");
-        return sb.toString();
+        return sb.toString();*/
     }
 }
