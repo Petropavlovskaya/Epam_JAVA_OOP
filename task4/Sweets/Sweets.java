@@ -1,7 +1,7 @@
 package by.epam.petropavlovskaya.task4.Sweets;
 
 // Суперкласс "Сладости"
-public class Sweets {
+public abstract class Sweets {
     private static int countSweets = 0;     // Счетчик созданных сладостей
     private String name;            // Наименование
     private float weight;           // Вес
@@ -30,18 +30,7 @@ public class Sweets {
     // Переопредление метода для вывода полей на экран.
     @Override
     public String toString() {
-        String sb;
-        sb = "Naimenovanie: " + name + ";\t" + "Ves: " + weight + ";\t" + "Sugar: " + amountOfSugar + ";\t";
-        return sb;
-
-
-/*        StringBuilder sb = new StringBuilder();
-        sb.append("Naimenovanie: ");
-        sb.append(name + ";\t");
-        sb.append("Ves: ");
-        sb.append(weight + ";\t");
-        sb.append("Sugar: ");
-        sb.append(amountOfSugar + ";\t");
-        return sb.toString();*/
+        return "Наименование: " + name + ";\t" + "Вес: " + weight + ";\t" +
+                "Количество сахара: " + amountOfSugar + ";\t";
     }
 }

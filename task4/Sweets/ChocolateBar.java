@@ -17,8 +17,6 @@ public class ChocolateBar extends Sweets {
     // Переопредление метода для вывода полей на экран.
     @Override
     public String toString() {
-        String sb;
-        sb = super.toString() + "Size: " + size;
-        return sb;
+        return super.toString() + "Размер: " + size;
     }
 }

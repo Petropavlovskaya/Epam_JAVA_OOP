@@ -11,11 +11,18 @@ public class InfoFinder {
         List<Sweets> findedSweets = new ArrayList<>();
         int min;
         int max;
+        int tmp;    // Промежуточная переменная для правильного распределения min-max
 
-        System.out.println("Введите минимальное значение диапазна для поиска по количеству сахара.");
+        System.out.println("Значение 1:");
         min = IntegerScanner.getInteger();
-        System.out.println("Введите максимальное значение диапазна.");
-        max = IntegerScanner.getInteger();
+        System.out.println("Значение 2:");
+        tmp = IntegerScanner.getInteger();
+        if (tmp < min) {
+            max = min;
+            min = tmp;
+        } else {
+            max = tmp;
+        }
 
         for (Sweets s : gift) {
             if ((s.getAmountOfSugar() >= min) && (s.getAmountOfSugar() <= max)) {

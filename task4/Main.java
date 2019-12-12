@@ -2,9 +2,7 @@ package by.epam.petropavlovskaya.task4;
 
 import by.epam.petropavlovskaya.task4.Sweets.Sweets;
 import by.epam.petropavlovskaya.task4.utillity.*;
-import sun.security.x509.IPAddressName;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /*      Задание 6. Новогодний подарок.
@@ -17,10 +15,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int min;        // Для диапазона поиска
-        int max;        // --//--
 
-        List<String> list = new ArrayList<>();
         List<Sweets> myGift;
 
         // 1. Читаем из файла и создаем коллекции сладостей
@@ -53,7 +48,7 @@ public class Main {
         InfoPrinter.printSweetsCollection(myGift);
 
         // 4. Находим в подарке сладости, соответствующие заданному диапазону
-        System.out.println("В заданном диапазоне:");
+        System.out.println("Введите диапазон для поиска по количеству сахара.");
         InfoPrinter.printSweetsCollection(InfoFinder.findSweetsBySugar(myGift));
 
     }
