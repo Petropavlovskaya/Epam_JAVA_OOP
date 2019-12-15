@@ -1,4 +1,6 @@
-package by.epam.petropavlovskaya.task4.Sweets;
+package by.epam.petropavlovskaya.task4.sweets;
+
+import java.util.Objects;
 
 // Суперкласс "Сладости"
 public abstract class Sweets {
@@ -32,5 +34,20 @@ public abstract class Sweets {
     public String toString() {
         return "Наименование: " + name + ";\t" + "Вес: " + weight + ";\t" +
                 "Количество сахара: " + amountOfSugar + ";\t";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Sweets sweets = (Sweets) o;
+        return Float.compare(sweets.weight, weight) == 0 &&
+                Float.compare(sweets.amountOfSugar, amountOfSugar) == 0 &&
+                name.equals(sweets.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, weight, amountOfSugar);
     }
 }

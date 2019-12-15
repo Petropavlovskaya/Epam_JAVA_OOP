@@ -1,6 +1,6 @@
-package by.epam.petropavlovskaya.task4.Factory;
+package by.epam.petropavlovskaya.task4.factory;
 
-import by.epam.petropavlovskaya.task4.Sweets.*;
+import by.epam.petropavlovskaya.task4.sweets.*;
 
 import java.util.ArrayList;
 import java.util.List;

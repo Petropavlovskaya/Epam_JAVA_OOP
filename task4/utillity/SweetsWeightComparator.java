@@ -1,6 +1,6 @@
 package by.epam.petropavlovskaya.task4.utillity;
 
-import by.epam.petropavlovskaya.task4.Sweets.Sweets;
+import by.epam.petropavlovskaya.task4.sweets.Sweets;
 
 import java.util.Comparator;
 

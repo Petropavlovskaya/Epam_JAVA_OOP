@@ -1,4 +1,6 @@
-package by.epam.petropavlovskaya.task4.Sweets;
+package by.epam.petropavlovskaya.task4.sweets;
+
+import java.util.Objects;
 
 public class ChocolateCandy extends Sweets {
     private static int countCandys = 0; // Счетчик созданных шоколадных конфет
@@ -20,4 +22,17 @@ public class ChocolateCandy extends Sweets {
         return super.toString() + "Наличие начинки: " + filling;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        ChocolateCandy that = (ChocolateCandy) o;
+        return filling == that.filling;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), filling);
+    }
 }

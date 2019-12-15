@@ -1,9 +1,9 @@
 package by.epam.petropavlovskaya.task4.utillity;
 
-import by.epam.petropavlovskaya.task4.Sweets.ChocolateBar;
-import by.epam.petropavlovskaya.task4.Sweets.ChocolateCandy;
-import by.epam.petropavlovskaya.task4.Sweets.Lollipop;
-import by.epam.petropavlovskaya.task4.Sweets.Sweets;
+import by.epam.petropavlovskaya.task4.sweets.ChocolateBar;
+import by.epam.petropavlovskaya.task4.sweets.ChocolateCandy;
+import by.epam.petropavlovskaya.task4.sweets.Lollipop;
+import by.epam.petropavlovskaya.task4.sweets.Sweets;
 
 import java.util.List;
 

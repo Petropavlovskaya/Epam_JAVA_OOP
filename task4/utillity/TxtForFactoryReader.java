@@ -1,7 +1,7 @@
 package by.epam.petropavlovskaya.task4.utillity;
 
-import by.epam.petropavlovskaya.task4.Factory.SweetsFactory;
-import by.epam.petropavlovskaya.task4.Factory.SweetsType;
+import by.epam.petropavlovskaya.task4.factory.SweetsFactory;
+import by.epam.petropavlovskaya.task4.sweets.SweetsType;
 
 import java.io.BufferedReader;
 import java.io.File;
