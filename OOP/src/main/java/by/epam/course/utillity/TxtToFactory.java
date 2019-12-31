@@ -30,7 +30,7 @@ public class TxtToFactory {
      */
     private static List<String> readTxtFile() {
         List<String> lines = new ArrayList<>();
-        Path path = Paths.get("src\\main\\resources", "Sww.txt");
+        Path path = Paths.get("src\\main\\resources", "Sweet.txt");
 
         try (BufferedReader reader = new BufferedReader(new FileReader(path.toFile()))) {
             String line;
