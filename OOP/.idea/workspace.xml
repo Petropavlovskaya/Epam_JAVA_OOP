@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="520eb6cc-cff8-47e3-b7ed-1aad5ae4103c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="178" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OOP">
+      <favorite_root url="file://$PROJECT_DIR$/src/main/java/Main.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VG6MAdXBGr5AmWSN6iOOZz0WIs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/utillity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/by/epam/course" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.course.utillity" />
+      <recent name="by.epam.course.entity" />
+      <recent name="utillity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="run" />
+      <recent name="utillity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in OOP">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.epam.course.run.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.course.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in OOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SweetTest.getWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.course.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.course.entity" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.course.entity.SweetTest" />
+      <option name="METHOD_NAME" value="getWeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.course.utillity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.course.utillity" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.course.utillity.ValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatorTest.checkData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.course.utillity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.course.utillity" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.course.utillity.ValidatorTest" />
+      <option name="METHOD_NAME" value="checkData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in OOP" />
+        <item itemvalue="JUnit.ValidatorTest" />
+        <item itemvalue="JUnit.ValidatorTest.checkData" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SweetTest.getWeight" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="520eb6cc-cff8-47e3-b7ed-1aad5ae4103c" name="Default Changelist" comment="" />
+      <created>1576867033879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576867033879</updated>
+      <workItem from="1576867047756" duration="3330000" />
+      <workItem from="1576940546722" duration="17374000" />
+      <workItem from="1577074105188" duration="149000" />
+      <workItem from="1577269989966" duration="946000" />
+      <workItem from="1577271331994" duration="101000" />
+      <workItem from="1577271487222" duration="9918000" />
+      <workItem from="1577281649936" duration="14062000" />
+      <workItem from="1577426920670" duration="15535000" />
+      <workItem from="1577457192044" duration="6828000" />
+      <workItem from="1577551805313" duration="9491000" />
+      <workItem from="1577568891321" duration="708000" />
+      <workItem from="1577622370834" duration="16965000" />
+      <workItem from="1577793766562" duration="7085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1577623193360">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1577623193360" />
+    <state x="275" y="21" key="#Notifications" timestamp="1577281598557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1577281598557" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577800996123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1577800996123" />
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1577566209796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577566209796" />
+    <state x="444" y="279" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577568187841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="279" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1577568187841" />
+    <state x="479" y="222" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577270896298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="222" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1577270896298" />
+    <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577290687025">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1577290687025" />
+    <state x="441" y="203" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577801235488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="203" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1577801235488" />
+    <state x="460" y="182" key="FileChooserDialogImpl" timestamp="1577568195252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="182" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577568195252" />
+    <state x="647" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577435744806" />
+    <state width="1322" height="131" key="GridCell.Tab.0.bottom" timestamp="1577801235588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577801235588" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505607" />
+    <state width="1322" height="131" key="GridCell.Tab.0.center" timestamp="1577801235588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577801235588" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505606" />
+    <state width="1322" height="131" key="GridCell.Tab.0.left" timestamp="1577801235588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577801235588" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505605" />
+    <state width="1322" height="131" key="GridCell.Tab.0.right" timestamp="1577801235588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577801235588" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505607" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1577446505608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505608" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1577446505607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505607" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1577446505607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505607" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1577446505608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577446505608" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1577458991024">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577458991024" />
+    <state x="498" y="145" key="chooseDestDirectoryDialog" timestamp="1576947037379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="145" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576947037379" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1577793766613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577793766613" />
+    <state x="531" y="266" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577427226025" />
+    <state x="817" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577642658325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="817" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1577642658325" />
+    <state x="522" y="255" width="1078" height="703" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577444385080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="255" width="1078" height="703" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1577444385080" />
+    <state x="65" y="0" key="new project wizard" timestamp="1577567917176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1577567917176" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1577629727944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1577629727944" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1577623768124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577623768124" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577458999760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577458999760" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OOP$All_in_OOP.ic" NAME="All in OOP Coverage Results" MODIFIED="1577801042668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

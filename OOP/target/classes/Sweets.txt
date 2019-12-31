@@ -1,0 +1,9 @@
+CHOCOLATE_BAR;Марс;26.8;33;SMALL
+CHOCOLATE_BAR;Сникерс;50.2;62.13;MEDIUM
+CHOCOLATE_BAR;Южная ночь;50.3;65.22;EXTRA_LARGE
+CHOCOLATE_CANDY;Аленка;5.1;20;false
+CHOCOLATE_CANDY;Грильяж;5.1;20;true
+LOLLIPOP;Чупа-чупс;15;75.3;true
+LOLLIPOP;Барбарис;12.3; 54.1;false
+LOLLIPOP;Мятная;12.3;14.1;false
+LOLLIPOP;Петушок;12.3;84.1;true

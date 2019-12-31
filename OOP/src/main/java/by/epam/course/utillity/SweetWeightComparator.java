@@ -1,0 +1,27 @@
+package by.epam.course.utillity;
+
+import by.epam.course.entity.Sweet;
+
+import java.util.Comparator;
+
+/**
+ * Класс "Компоратор" для сортировки по весу
+ *
+ * @see CollectionSorter
+ */
+class SweetWeightComparator implements Comparator<Sweet> {
+
+
+    /**
+     * Переопределенный метод compare для сортировки по весу
+     *
+     * @param a - первый объект "Сладость" для сравнения
+     * @param b - второй объект "Сладость" для сравнения
+     * @return - числовое выражение равенства объектов
+     */
+    @Override
+    public int compare(Sweet a, Sweet b) {
+        return Float.compare(a.getWeight(), b.getWeight());
+    }
+
+}

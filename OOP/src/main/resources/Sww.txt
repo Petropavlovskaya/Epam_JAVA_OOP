@@ -1,0 +1,24 @@
+﻿
+CHOCO+LATE_BAR; Ярч*е; 	38.3; 20; 	SMALL
+CHOCOLATE_BAR; Ярче; 	38.3; 20; 	SMALL
+CHOCOLATE_BAR; Сник55ерс; 50.2; 62.13; 	SM ALL
+CHOCOLATE_BAR; Сникерс; 50.2; 62.13; 	SM ALL
+CHOCOLATE_BAR; КитКат; 	0.8; 33; 	LARGE
+CHOCOLATE_BAR; КитКат; 	21.8; 33; 	LARGE
+CHOCOLATE_BAR; КитКат; 	21.8; 33; 	LARGE
+CHOCOLATE_BAR; Твикс; 	45.8; 44. 59; 	MEDIUM
+CHOCOLATE_BAR; Баунти; 	50.3; 65.22; 	EXTRA_LARGE
+
+CHOCOLATE_CANDY; Аленка; 	5.1; 20; false
+CHOCO LATE_CANDY; Грильяж;	6.9; 20; true
+CHOCO LATE_CANDY; Грильяж;	6.9; 20; true
+CHOCOLATE_CANDY; Минчанка;	5.2; 22; false
+
+LOLLIPOP; Чупа-чупс; 	s; 	75.3; true
+LOLLIPOP; Чупа-чупс; 	14.7; 	75.3; true
+LOLLIPOP; Барбарис; 	12.3; 	54.1; fa-lse
+LOLLIPOP; Барбарис; 	12.3; 	54.1; false
+LOLLIPOP; Мята; 	12.3; 	14.1; false
+LOLLIPOP; Петушок; 	12.3; 	84.1; true
+LOLLIPOP; Петушок; 	12.3; 	84.1; true
+LOLLIPOP; Петушок; 	12.3; 	84,1; true
